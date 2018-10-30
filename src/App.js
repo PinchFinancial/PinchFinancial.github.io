@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {HashRouter, Route, Switch} from 'react-router-dom';
 import './App.css';
-import Nav from './Components/Nav';
-import Home from './Page/Home';
+import Nav from './components/Nav';
+import { Home } from './modules/Home';
 
 class App extends Component {
   render() {

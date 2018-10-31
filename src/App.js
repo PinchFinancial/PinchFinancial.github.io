@@ -3,6 +3,7 @@ import {HashRouter, Route, Switch} from 'react-router-dom';
 import './App.css';
 import Nav from './components/Nav';
 import { Home } from './modules/Home';
+import { Rent } from './modules/Rent';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
             <Nav />
             <Switch>
               <Route exact path={`/`} component={Home} />
+              <Route exact path={`/rent`} component={Rent} />
               <Route render={function () {
                 return <p>Not Found</p>
               }} />

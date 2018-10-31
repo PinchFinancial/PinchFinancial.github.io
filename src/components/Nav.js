@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, NavbarToggler, NavbarBrand, Collapse, Nav, NavLink, NavItem } from 'reactstrap';
+import { Navbar, NavbarToggler, NavbarBrand, Collapse, Nav, NavLink } from 'reactstrap';
+import Logo from './img/ShortLogo.png';
+import RentIcon from './img/rent.png';
+import BlogIcon from './img/blog.png';
 
 class NavBar extends React.Component {
   constructor(props) {
@@ -11,6 +14,7 @@ class NavBar extends React.Component {
       isOpen: false
     };
   }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
@@ -20,31 +24,23 @@ class NavBar extends React.Component {
   render () {
     return(
       <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Pinch</NavbarBrand>
+      <Navbar color="white" light expand="md">
+        <NavbarBrand href="/">
+          <img src={Logo} width="50" height="50"></img>
+        </NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <NavLink tag={Link} to='/'>Home</NavLink>
-            <NavLink tag={Link} to='/rent'>Rent</NavLink>
-            <NavLink tag={Link} to='/blog'>Blog</NavLink>
+            <NavLink tag={Link} to='/rent'>
+              <img src={RentIcon} width="80" height="50"></img>
+            </NavLink>
+            <NavLink tag={Link} to='/blog'>
+              <img src={BlogIcon} width="80" height="50"></img>
+            </NavLink>
           </Nav>
         </Collapse>
       </Navbar>
     </div>
-
-      // <Navbar toggleable>
-      //     <NavbarToggler onClick={this.toggle} />
-      //     <NavbarBrand href="/">Home</NavbarBrand>
-      //     <Collapse isOpen={this.state.isOpen} navbar>
-      //       <Nav className="ml-auto" navbar>
-      //         <NavLink tag={Link} to='/'>Home</NavLink>
-      //         <NavLink tag={Link} to='/about'>About</NavLink>
-      //         <NavLink tag={Link} to='/rent'>Rent</NavLink>
-      //         <NavLink tag={Link} to='/blog'>Blog</NavLink>
-      //       </Nav>
-      //     </Collapse>
-      //   </Navbar>
   );
   }
 }

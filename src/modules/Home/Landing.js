@@ -4,7 +4,7 @@ import Colors from '../../colors'
 
 const styles = {
   Top: {
-    height: '70vh'
+    minHeight: '70vh'
   },
   TopMargin: {
     marginTop: 180

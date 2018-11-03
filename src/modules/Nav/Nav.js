@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, NavbarToggler, NavbarBrand, Collapse, Nav, NavLink } from 'reactstrap';
 import Logo from './img/ShortLogo.png';
+import HomeIcon from './img/home.png';
 import RentIcon from './img/rent.png';
 import BlogIcon from './img/blog.png';
 
@@ -31,6 +32,9 @@ class NavBar extends React.Component {
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
+            <NavLink tag={Link} to='/'>
+              <img src={HomeIcon} width="80" height="50"></img>
+            </NavLink>
             <NavLink tag={Link} to='/rent'>
               <img src={RentIcon} width="80" height="50"></img>
             </NavLink>

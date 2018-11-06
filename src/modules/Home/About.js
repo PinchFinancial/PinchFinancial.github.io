@@ -9,7 +9,7 @@ const styles = {
         fontSize: 80
     },
     SectionHeader: {
-        fontSize: 80
+        fontSize: 70
     },
     SectionMargin: {
         marginTop: 75
@@ -25,7 +25,7 @@ class About extends Component {
     return (
         <Container fluid>
             <Row style={styles.AboutHeader}>
-                <Col sm={{ size: 11, offset: 1 }}>
+                <Col md={{ size: 6, offset: 1 }}>
                     <div style={styles.SectionMargin}>
                         <h1 style={styles.SectionHeader}>About Us</h1>
                     </div>
@@ -38,7 +38,7 @@ class About extends Component {
                         <p>Based in Toronto, we’re proud to be a Canadian company and hope you’ll let us be part of your Homestory.</p>
                     </div>
                 </Col>
-                <Col md={{ size: 7}}>
+                <Col md={{ size: 6}}>
                     <div style={styles.SectionMargin}>
                         <img src={AboutImage} width={'100%'} height={'100%'}></img>
                     </div>

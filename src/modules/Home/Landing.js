@@ -7,11 +7,11 @@ const styles = {
     minHeight: '70vh'
   },
   TopMargin: {
-    marginTop: 180
+    marginTop: 200
   },
   TopHeader: {
     color: Colors.red,
-    fontSize: 60
+    fontSize: 72
   },
   TopSubheader: {
     color: Colors.gray

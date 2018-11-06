@@ -7,7 +7,7 @@ const styles = {
     minHeight: '70vh'
   },
   Margin: {
-    marginTop: '15%'
+    marginTop: 200
   },
   Header: {
     color: Colors.red,

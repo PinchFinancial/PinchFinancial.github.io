@@ -7,7 +7,7 @@ const styles = {
     minHeight: '70vh'
   },
   TopMargin: {
-    marginTop: '15%'
+    marginTop: 200
   },
   TopHeader: {
     color: Colors.purple,

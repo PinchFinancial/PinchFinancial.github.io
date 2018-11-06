@@ -34,7 +34,7 @@ class Rent extends Component {
                 <Button size="lg" style={styles.PurpleButton}>BUY INSURANCE</Button>
             </div>
           </Col>
-          <Col md={{ size: 7}}>
+          <Col md={{ size: 6}}>
             <img src={RentImage} width={'100%'} height={'100%'}></img>
           </Col>
         </Row>

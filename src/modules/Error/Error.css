@@ -1,0 +1,23 @@
+.error {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url(./img/bg_mobile.jpg); 
+}
+
+@media only screen and (min-width:768px) and (orientation:landscape) { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .error {
+        background: no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-image: url(./img/bg.jpg); 
+    }
+}

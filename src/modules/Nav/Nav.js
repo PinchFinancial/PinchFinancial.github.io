@@ -65,7 +65,7 @@ class NavBar extends React.Component {
 
     if(!isExited) {
       content = (<Nav className="ml-auto" navbar>
-          <NavLink tag={Link} to='/'>
+          <NavLink tag={Link} to='/home'>
             <p className="text-center" style={styles.NavbarText}>HOME</p>
           </NavLink>
           <NavLink tag={Link} to='/rent'>
@@ -78,7 +78,7 @@ class NavBar extends React.Component {
     }
     else {
       content = (<Nav className="ml-auto" navbar>
-          <NavLink tag={Link} to='/'>
+          <NavLink tag={Link} to='/home'>
             <img style={styles.Cloud} src={HomeIcon} width="80" height="50"></img>
           </NavLink>
           <NavLink tag={Link} to='/rent'>

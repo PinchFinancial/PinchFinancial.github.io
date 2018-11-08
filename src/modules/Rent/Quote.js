@@ -61,7 +61,7 @@ class Quote extends Component {
             </Row>
             <Row>
                 <Col md={{size: 4, offset: 4}} style={styles.ContainerPadding}>
-                    <h1 className="text-center" style={styles.Text}>We’re coming to British Columbia in November!</h1>
+                    <h1 className="text-center" style={styles.Text}>We’re coming to British Columbia very soon!</h1>
                 </Col>
             </Row>
             <Row>

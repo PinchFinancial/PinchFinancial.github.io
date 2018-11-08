@@ -70,7 +70,7 @@ class Medium extends Component {
             <Row style={styles.Blog}>
                 <Col>
                     <div style={styles.SectionMargin}>
-                        <h1 className="text-center" style={styles.SectionHeader}>Blogs</h1>
+                        <h1 className="text-center" style={styles.SectionHeader}>Our Blog</h1>
                     </div>
                 </Col>
             </Row>

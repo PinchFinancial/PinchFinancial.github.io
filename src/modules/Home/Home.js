@@ -5,17 +5,32 @@ import Landing from './Landing';
 import About from './About';
 import Contact from './Contact';
 import { Nav } from './../Nav';
+import { QuoteModal } from './../QuoteModal';
 
 class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+        modal: false
+    };
+  }
+
+  toggle = () => {
+    this.setState({
+      modal: !this.state.modal
+    });
+  }
+
   render() {
     return (
       <div>
         <Nav />
         <Landing />
-        <Rent />
+        <Rent toggle={this.toggle}/>
         <Buy />
         <About />
         <Contact />
+        <QuoteModal modal={this.state.modal} toggle={this.toggle} />
       </div>
     )
   }

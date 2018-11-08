@@ -94,7 +94,7 @@ class TenantInsurance extends Component {
                 </Col>
             </Row>
             <div style={styles.CenterDiv}>
-                <Button size="lg" style={styles.PurpleButton}>GET PROTECTION</Button>
+                <Button size="lg" style={styles.PurpleButton} onClick={this.props.toggle}>GET PROTECTION</Button>
             </div>
         </Container>
     )

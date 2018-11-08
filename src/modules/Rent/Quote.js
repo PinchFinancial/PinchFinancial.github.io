@@ -70,7 +70,7 @@ class Quote extends Component {
                 </Col>
             </Row>
             <div style={styles.CenterDiv}>
-                <Button size="lg" style={styles.RedButton}>GET A FREE QUOTE</Button>
+                <Button size="lg" style={styles.RedButton} onClick={this.props.toggle}>GET A FREE QUOTE</Button>
             </div>
         </Container>
     )

@@ -4,6 +4,8 @@ import TenantInsurance from './TenantInsurance';
 import Quote from './Quote';
 import { QuoteModal } from '../QuoteModal';
 import { Nav } from './../Nav';
+import { Footer } from './../Footer';
+import Colors from './../../colors';
 
 class Rent extends Component {
   constructor(props) {
@@ -27,6 +29,7 @@ class Rent extends Component {
         <TenantInsurance toggle={this.toggle} />
         <Quote toggle={this.toggle} />
         <QuoteModal modal={this.state.modal} toggle={this.toggle} />
+        <Footer background={Colors.red} fontColor={Colors.white} />
       </div>
     )
   }

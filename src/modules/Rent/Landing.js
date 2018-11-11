@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
 import Colors from '../../colors'
+import HareMoving from './img/haremoving.png'
 
 const styles = {
   Top: {
     minHeight: '70vh'
   },
   TopMargin: {
-    marginTop: 200
+    marginTop: 150
   },
   TopHeader: {
     color: Colors.purple,
-    fontSize: 60
+    fontsize: 'large'
   },
   TopSubheader: {
     color: Colors.gray
@@ -19,7 +20,8 @@ const styles = {
   PurpleButton: {
     color: Colors.white,
     background: Colors.purple,
-    border: '1px solid ' + Colors.white
+    border: '1px solid ' + Colors.white,
+    marginBottom: 100
   },
   CenterDiv: {
     display: 'flex',
@@ -43,6 +45,9 @@ class Landing extends Component {
         <div>
             <Container fluid style={styles.Top}>
                 <div style={styles.TopMargin}>
+                    <div style={styles.CenterDiv}>
+                        <img src={HareMoving} width={'60%'} height={'60%'}></img>
+                    </div>
                     <h1 className="text-center" style={styles.TopHeader}>Renting a New Place?</h1>
                     <h3 className="text-center" style={styles.TopSubheader}>Make sure you and your stuff are protected, as low as $20/month</h3>
                 </div>

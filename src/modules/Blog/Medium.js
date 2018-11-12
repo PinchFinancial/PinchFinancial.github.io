@@ -74,7 +74,7 @@ class Medium extends Component {
                     </div>
                 </Col>
             </Row>
-            <Row style={styles.SectionMargin}>
+            <Row id="blog" style={styles.SectionMargin}>
                 {
                     feeds.map(feed => 
                         <Col md={{ size: 4}}>

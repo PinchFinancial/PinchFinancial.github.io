@@ -40,7 +40,7 @@ class About extends Component {
                 </Col>
                 <Col md={{ size: 6}}>
                     <div style={styles.SectionMargin}>
-                        <img src={AboutImage} width={'100%'} height={'100%'}></img>
+                        <img src={AboutImage} width={'100%'} height={'100%'} alt="About"></img>
                     </div>
                 </Col>
             </Row>

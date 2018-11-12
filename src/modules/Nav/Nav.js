@@ -79,22 +79,22 @@ class NavBar extends React.Component {
     else {
       content = (<Nav className="ml-auto" navbar>
           <NavLink tag={Link} to='/home'>
-            <img style={styles.Cloud} src={HomeIcon} width="80" height="50"></img>
+            <img style={styles.Cloud} src={HomeIcon} width="80" height="50" alt="Home"></img>
           </NavLink>
           <NavLink tag={Link} to='/rent'>
-            <img style={styles.Cloud} src={RentIcon} width="80" height="50"></img>
+            <img style={styles.Cloud} src={RentIcon} width="80" height="50" alt="Rent"></img>
           </NavLink>
           <NavLink tag={Link} to='/blog'>
-            <img style={styles.Cloud} src={BlogIcon} width="80" height="50"></img>
+            <img style={styles.Cloud} src={BlogIcon} width="80" height="50" alt="Blog"></img>
           </NavLink>
         </Nav>)
     }
 
     if(position > 0) {
-      logo = <img src={Logo} width="50" height="50"></img>
+      logo = <img src={Logo} width="50" height="50" alt="Logo"></img>
     }
     else {
-      logo = <img src={Logo} width="100" height="100"></img>
+      logo = <img src={Logo} width="100" height="100" alt="Logo"></img>
     }
 
     return(

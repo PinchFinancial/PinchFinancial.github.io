@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Card, CardText, CardBody, CardLink, CardImg, CardTitle, CardSubtitle, CardFooter } from 'reactstrap';
-import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
+import { Container, Row, Col, Card, CardBody, CardLink, CardImg, CardTitle, CardSubtitle, CardFooter } from 'reactstrap';
+import ReactHtmlParser from 'react-html-parser';
 import RSSParser from 'rss-parser';
 import Colors from '../../colors'
 

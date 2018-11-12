@@ -35,7 +35,7 @@ class Rent extends Component {
             </div>
           </Col>
           <Col md={{ size: 6}}>
-            <img src={RentImage} width={'100%'} height={'100%'}></img>
+            <img src={RentImage} width={'100%'} height={'100%'} alt="Rent"></img>
           </Col>
         </Row>
     </Container>

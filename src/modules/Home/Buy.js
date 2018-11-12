@@ -28,7 +28,7 @@ class Buy extends Component {
     <Container fluid style={styles.Buy}>
         <Row>
             <Col xs={{ size: 12, order: 2}} md={{ size: 6, offset: 1, order: 1}}>
-                <img src={BuyImage} width={'100%'} height={'100%'}></img>
+                <img src={BuyImage} width={'100%'} height={'100%'} alt="Buy"></img>
             </Col>
             <Col xs={{ size: 12, order: 1}} md={{ size: 4, order: 2 }}>
                 <div style={styles.SectionMargin}>

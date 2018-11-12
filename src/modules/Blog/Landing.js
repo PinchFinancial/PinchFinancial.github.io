@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Container, Button } from 'reactstrap';
 import Colors from '../../colors'
 
 const styles = {
@@ -29,10 +29,6 @@ const styles = {
     justifyContent: 'center',
     marginTop: '8%',
     marginBottom: 20
-  },
-  link: {
-    color: Colors.white,
-    textDecoration: 'none'
   }
 }
 

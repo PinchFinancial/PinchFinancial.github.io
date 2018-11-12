@@ -58,13 +58,13 @@ class TenantInsurance extends Component {
                 <Col sm={{size: 8, offset: 2}} md={{size: 6, offset: 3}}>
                     <Row>
                         <Col xs={{size: 4}}>
-                            <img src={Watch} width="100%" height="100%"></img>
+                            <img src={Watch} width="100%" height="100%" alt="Watch"></img>
                         </Col>
                         <Col xs={{size: 4}}>
-                            <img src={Computer} width="100%" height="100%"></img>
+                            <img src={Computer} width="100%" height="100%" alt="Computer"></img>
                         </Col>
                         <Col xs={{size: 4}}>
-                            <img src={Bike} width="100%" height="100%"></img>
+                            <img src={Bike} width="100%" height="100%" alt="Bike"></img>
                         </Col>
                     </Row>
                 </Col>
@@ -78,7 +78,7 @@ class TenantInsurance extends Component {
             </Row>
             <Row>
                 <Col sm={{size: 8, offset: 2}} md={{size: 4, offset: 4}}>
-                    <img src={Coverage} width="100%" height="100%"></img>
+                    <img src={Coverage} width="100%" height="100%" alt="Coverage"></img>
                 </Col>
             </Row>
 
@@ -90,7 +90,7 @@ class TenantInsurance extends Component {
             </Row>
             <Row>
                 <Col sm={{size: 8, offset: 2}} md={{size: 4, offset: 4}}>
-                    <img src={Motel} width="100%" height="100%"></img>
+                    <img src={Motel} width="100%" height="100%" alt="Motel"></img>
                 </Col>
             </Row>
             <div style={styles.CenterDiv}>

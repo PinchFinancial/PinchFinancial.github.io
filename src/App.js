@@ -4,7 +4,6 @@ import './App.css';
 import { Home } from './modules/Home';
 import { Rent } from './modules/Rent';
 import { Blog } from './modules/Blog';
-import { Error } from './modules/Error';
 
 class App extends Component {
   render() {
@@ -13,7 +12,7 @@ class App extends Component {
         <HashRouter>
           <div>
             <Switch>
-              <Route exact path={`/`} component={Error} />
+              <Route exact path={`/`} component={Home} />
               <Route exact path={`/home`} component={Home} />
               <Route exact path={`/rent`} component={Rent} />
               <Route exact path={`/blog`} component={Blog} />

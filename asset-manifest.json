@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.4e5775d4.chunk.css",
-  "main.js": "/static/js/main.88dd9a26.chunk.js",
-  "main.js.map": "/static/js/main.88dd9a26.chunk.js.map",
+  "main.js": "/static/js/main.d51b43a4.chunk.js",
+  "main.js.map": "/static/js/main.d51b43a4.chunk.js.map",
   "static/css/1.003f4f05.chunk.css": "/static/css/1.003f4f05.chunk.css",
   "static/js/1.e1bfff0a.chunk.js": "/static/js/1.e1bfff0a.chunk.js",
   "static/js/1.e1bfff0a.chunk.js.map": "/static/js/1.e1bfff0a.chunk.js.map",
@@ -14,13 +14,13 @@
   "static/media/watch.png": "/static/media/watch.32d6a71b.png",
   "static/media/computer.png": "/static/media/computer.104eaffa.png",
   "static/media/bike.png": "/static/media/bike.55dd2f6d.png",
-  "static/media/coverage.png": "/static/media/coverage.c821a7b3.png",
+  "static/media/coverage.png": "/static/media/coverage.e6837ac0.png",
   "static/media/motel.png": "/static/media/motel.d116d612.png",
   "static/media/Error.css": "/static/media/bg_mobile.91f4275c.jpg",
   "static/media/rent.png": "/static/media/rent.22f9b6dd.png",
   "static/css/main.4e5775d4.chunk.css.map": "/static/css/main.4e5775d4.chunk.css.map",
   "static/css/1.003f4f05.chunk.css.map": "/static/css/1.003f4f05.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.f717d82a28f40e7f46cbe5051cbc8a88.js": "/precache-manifest.f717d82a28f40e7f46cbe5051cbc8a88.js",
+  "precache-manifest.48c8e7badf27b55d274ff4f2d24725de.js": "/precache-manifest.48c8e7badf27b55d274ff4f2d24725de.js",
   "service-worker.js": "/service-worker.js"
 }

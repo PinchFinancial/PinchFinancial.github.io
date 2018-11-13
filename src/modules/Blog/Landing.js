@@ -41,9 +41,7 @@ class Landing extends Component {
                 <h3 className="text-center" style={styles.Subheader}>Subscribe to our weekly blog for advice and helpful tips!</h3>
             </div>
             <div style={styles.CenterDiv}>
-                <Button size="lg" style={styles.RedButton} onClick={this.props.handleShow}>
-                    READ NOW
-                </Button>
+                <Button size="lg" style={styles.RedButton} onClick={this.props.handleShow}>Read Now</Button>
             </div>
         </Container>
     )

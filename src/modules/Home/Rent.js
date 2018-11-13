@@ -31,7 +31,7 @@ class Rent extends Component {
             <div style={styles.SectionMargin}>
                 <h1 style={styles.SectionHeader}>Rent</h1>
                 <p>Whether it’s finding a place, or insuring your rental, we’ve got you covered. We’ve brought together real estate firms and insurance companies to make renting simple. With Pinch you can purchase tenant insurance in less than 5 minutes, no phone calls necessary.</p>
-                <Button size="lg" style={styles.PurpleButton} onClick={this.props.toggle}>BUY INSURANCE</Button>
+                <Button size="lg" style={styles.PurpleButton} onClick={this.props.toggle}>Buy Insurance</Button>
             </div>
           </Col>
           <Col md={{ size: 6}}>

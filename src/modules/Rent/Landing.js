@@ -52,7 +52,7 @@ class Landing extends Component {
                     <h3 className="text-center" style={styles.TopSubheader}>Make sure you and your stuff are protected, as low as $20/month</h3>
                 </div>
                 <div style={styles.CenterDiv}>
-                    <Button size="lg" style={styles.PurpleButton} onClick={this.props.toggle}>BUY INSURANCE</Button>
+                    <Button size="lg" style={styles.PurpleButton} onClick={this.props.toggle}>Buy Insurance</Button>
                 </div>
             </Container>
             <Container fluid style={styles.RedContainer}>

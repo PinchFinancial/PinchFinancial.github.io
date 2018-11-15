@@ -1,0 +1,38 @@
+.modal-open .modal {
+  display: flex !important;
+}
+
+.modal {
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-dialog.modal-lg {
+  max-height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+}
+
+.modal-content {
+  flex: 1 1 auto;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+.modal-content .modal-body {
+  max-height: 100%;
+  box-sizing: border-box;
+  padding: 0.35rem;
+  height: 100%;
+}
+
+.modal-body iframe {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 100%;
+  max-height: inherit;
+}

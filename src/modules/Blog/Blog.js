@@ -10,7 +10,11 @@ class Blog extends Component {
     var elmnt = document.getElementById("blog");
     elmnt.scrollIntoView({inline: 'nearest', block: 'start', behavior: 'smooth'});
   }
-  
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div>

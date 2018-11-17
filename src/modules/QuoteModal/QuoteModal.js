@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Modal, ModalBody } from 'reactstrap';
 import './QuoteModal.css';
 
 class QuoteModal extends Component {
@@ -16,17 +15,30 @@ class QuoteModal extends Component {
         if (this.element)
         {
             var iframe = this.element.querySelector('iframe');
-            iframe.setAttribute("style", 'width:' + iframe.contentWindow.top.innerWidth + 'px; height:' + iframe.contentWindow.top.innerHeight + 'px');
+            iframe.setAttribute(
+              "style",
+              'width:' + iframe.contentWindow.top.innerWidth + 'px; height: ' + + iframe.contentWindow.top.innerHeight + "px"
+            );
         }
     }
 
     render() {
         return (
-            <Modal isOpen={this.props.modal} toggle={this.props.toggle} className="modal-lg">
-                <ModalBody>
+          <>
+            {
+              this.props.modal && (
+                <div className="pinch-modal">
+                  <div className="backdrop" onClick={this.props.toggle}></div>
+                  <div className="iframe-wrapper">
                     <iframe id="tenants" title="tenants" src="https://st-clair.brokerlift.net/gore-tenants"> </iframe>
-                </ModalBody>
-            </Modal>
+                  </div>
+                </div>
+              )
+            }
+          </>
+            // <Modal isOpen={this.props.modal} toggle={this.props.toggle} className="modal-lg">
+            //   <iframe id="tenants" title="tenants" src="https://st-clair.brokerlift.net/gore-tenants"> </iframe>
+            // </Modal>
         )
     }
 
@@ -45,4 +57,10 @@ class QuoteModal extends Component {
       }
     }
 }
+
+QuoteModal.defaultProps = {
+  modal: false,
+  toggle: ()=>{}
+}
+
 export default QuoteModal;

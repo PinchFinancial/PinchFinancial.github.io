@@ -49,11 +49,15 @@ class QuoteModal extends Component {
         let resizeFunction = this.resizeToContent.bind(this);
         resizeFunction();
         this.resizeHandler = setInterval(resizeFunction, 1000);
+        let appNode = document.getElementsByClassName("App")[0];
+        appNode.setAttribute("style", "overflow: hidden;");
       }
       else
       {
         clearInterval(this.resizeHandler);
         this.resizeHandler = null;
+        let appNode = document.getElementsByClassName("App")[0];
+        appNode.setAttribute("style", "");
       }
     }
 }

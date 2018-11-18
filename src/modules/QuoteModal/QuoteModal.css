@@ -27,6 +27,7 @@
 .pinch-modal .iframe-wrapper {
   max-height: 100%;
   -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
   overflow-y: scroll;
   z-index: 100000;
   max-width: 800px;

@@ -30,7 +30,7 @@ class QuoteModal extends Component {
                 <div className="pinch-modal">
                   <div className="backdrop" onClick={this.props.toggle}></div>
                   <div className="iframe-wrapper">
-                    <iframe id="tenants" title="tenants" src="https://st-clair.brokerlift.net/gore-tenants"> </iframe>
+                    <iframe id="tenants" title="tenants" src="https://st-clair.brokerlift.net/gore-tenants-lite-v2?p_name=pinch&p_office=pinch"> </iframe>
                   </div>
                 </div>
               )
